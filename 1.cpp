@@ -119,7 +119,7 @@ int newton_raphson(double x0, double Delta, fptr f, fptr fderiv)
   return N;
 }
 
-//Newton Inicia con N=0
+//Para Newton Inicia con N=0
 
 double deriv(double x)
 {
