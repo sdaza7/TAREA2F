@@ -39,7 +39,7 @@ int main(void)
 int bisection(double xl, double xu, double Delta, fptr f)
 {
   double xr = xl;
-  int N = 1;
+  int N = 0;
   while(1) {
     xr=(xl+xu)/2;
     if (std::fabs(f(xr)) <= Delta) {
